@@ -1,0 +1,95 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sans-serif", helvetiica, arial;
+  background-color: #690259;
+  margin: 0;
+  height: 100%;
+}
+nav a {
+  margin-left: 25px;
+  color: #360b30;
+  text-decoration-line: overline;
+  font-weight: bold;
+  
+}
+
+nav {
+  color: #;
+  background-color: #fabd;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: flex;
+  z-index: 100%;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+h4 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-decoration-line: ;
+}
+iframe {
+  align: center;
+  frameborder="90"
+  width="660px" height="415px"
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+}
+p {
+  color: #f7eaf5;
+  text-align: center;
+  max-width: auto;
+  box-sizing: border-box;
+}
+footer {
+  background-color: #fabd;
+  justify-content: center;
+  padding: 2.5rem;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+}
+img {
+  text-align: center;
+}
+
+form {text-align:center; 
+  height:500px;  
+}
+.button-submit {font-size:15px;}
+
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
