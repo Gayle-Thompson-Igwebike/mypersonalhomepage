@@ -5,14 +5,40 @@
    ===================
 */
 html,
-* {
+* 
+{
   box-sizing: border-box;
 }
+/*  
+.cards{
+  display: flex;
+  flex-direction: row;
+background-color: rgb(238, 220, 118);
+border: 30px solid green;
+}
+.card1{
+  border: 3px solid pink;
+  height: 150px;
+  max-width: auto;
+}
+.card2{
+  border: 3px solid pink;
+  height: 150px;
+  max-width: auto;}
+
+  .card3{
+    border: 3px solid pink;
+    height: 150px;
+    max-width: auto;}
+
+     float: left;
+    /*  */
+
 
 body {
   font-family: "sans-serif", helvetiica, arial;
   background-color: #690259;
-  margin: 0;
+  margin: 40;
   height: 100%;
 }
 nav a {
@@ -37,6 +63,7 @@ nav {
   z-index: 100%;
 }
 h1 {
+  margin-top: 45px;
   text-align: center;
   color: #ffffff;
   font-size: 2.5rem;
@@ -64,6 +91,7 @@ p {
   max-width: auto;
   box-sizing: border-box;
 }
+
 footer {
   background-color: #fabd;
   justify-content: center;
@@ -79,8 +107,106 @@ img {
 form {text-align:center; 
   height:500px;  
 }
-.button-submit {font-size:15px;}
+.button-submit {
+  color: rgb(241, 116, 137);
+  font-size:15px;}
 
+
+
+/* cards designs*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  display: flex;
+  width: 35%;
+  padding: 0 15px;
+  margin-top: 10px;
+  background-color: pink;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card p{
+color: black;
+text-align: center;
+}
+
+/* Style the counter cards */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  height: 350px;
+}
+
+.card{
+  height: auto;
+  margin-top: 25px;
+  width: 18rem;
+}
+
+.card-buttons{
+ background-color: #660659;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card img {
+  height: 120px;
+  width: 100px;
+  margin-right:px;
+  border-radius: 40%;
+  border: purple solid;
+  
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 46px;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 300px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
 
 
